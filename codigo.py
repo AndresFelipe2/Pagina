@@ -1,11 +1,11 @@
 print('Encuesta de empleo')
 
 nombre = input('Digite su nombre: ')
-edad = input('Digite su edad: ')
+edad = int(input('Digite su edad: '))
 id = input('Digite su identificacion: ')
 requisito_minimo = 18
 
-print(f'nombre: {nombre}, edad: {edad}, identificacion: {identificacion}')
+print(f'nombre: {nombre}, edad: {edad}, identificacion: {id}')
 
 if edad == requisito_minimo:
   print('Cumple con el requisito de edad')
