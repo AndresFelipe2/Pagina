@@ -21,3 +21,8 @@ total_mensual = total_agua + total_energia + total_gas
 # Mostrar el gasto total mensual
 print(f'Gasto mensual en factura: {total_mensual}')
 
+porcentaje_descuento = 10 
+
+descuento = (porcentaje_descuento / 100) * total_mensual
+print(f' descuento de factura: {descuento}')
+
