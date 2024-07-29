@@ -26,3 +26,7 @@ porcentaje_descuento = 10
 descuento = (porcentaje_descuento / 100) * total_mensual
 print(f' descuento de factura: {descuento}')
 
+total_con_descuento = total_mensual - descuento
+
+print(f'total de pago en factura: {total_con_descuento}')
+
