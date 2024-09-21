@@ -24,9 +24,16 @@ print(f'Gasto mensual en factura: {total_mensual}')
 porcentaje_descuento = 10 
 
 descuento = (porcentaje_descuento / 100) * total_mensual
-print(f' descuento de factura: {descuento}')
+
+benef = input("usted es beneficiaro? (si/no): ")
 
 total_con_descuento = total_mensual - descuento
 
-print(f'total de pago en factura: {total_con_descuento}')
+if benef == "si":
+    print(f' descuento de factura: {descuento}, por lo tanto pagara: {total_con_descuento}')
+
+else:
+    print(f'No se efectuaran cambios en su factura, por lo tanto pagara: {total_mensual}')
+
+
 
